@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
 }
+*:focus{
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
 
 html{
   height: 100%;
@@ -104,6 +108,22 @@ img{
 .currency-rates-type{
   color: #2959ce;
 }
+
+.global-search-form-input{
+  margin-right: 25px;
+}
+
+.global-search-form-input{
+  font-size: 14px;
+  line-height: normal;
+  border: 0;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  border-radius: 60px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
 
 .lang-toggle{
   display: flex;
